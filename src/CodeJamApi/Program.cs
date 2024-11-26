@@ -30,4 +30,10 @@ app.MapGet(
     .WithName("Hello")
     .WithOpenApi();
 
+app.MapGet(
+        "/foo",
+        () => new { Message = "bar" })
+    .WithName("foo")
+    .WithOpenApi();
+
 app.Run();
