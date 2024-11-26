@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup Label="Metadata configuration">
+        <OrganizationName>lupusbytes</OrganizationName>
+        <RepositoryName>codejam-release-demo</RepositoryName>
+    </PropertyGroup>
+
+    <PropertyGroup Label="Compile settings">
+        <Nullable>enable</Nullable>
+        <LangVersion>12.0</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <TargetFramework>net8.0</TargetFramework>
+        <NoWarn>1573,1591,1712,CA1014</NoWarn>
+
+        <!-- Used by code coverage -->
+        <DebugType>full</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+    </PropertyGroup>
+
+</Project>
