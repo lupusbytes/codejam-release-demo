@@ -11,10 +11,10 @@ app.UseSwaggerUI();
 
 app.MapGet(
         "/version",
-        () => Assembly
+        () => new { Version = Assembly
             .GetExecutingAssembly()
             .GetCustomAttribute<AssemblyInformationalVersionAttribute>()?
-            .InformationalVersion ?? "Unknown")
+            .InformationalVersion ?? "Unknown" })
     .WithName("GetApiVersion")
     .WithOpenApi();
 
