@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.2.0](https://github.com/lupusbytes/codejam-release-demo/compare/v2.1.0...v2.2.0) (2024-11-26)
+
+
+### Features
+
+* add foo endpoint ([82ef782](https://github.com/lupusbytes/codejam-release-demo/commit/82ef7824424af8aa2866862cc9c2e19cefb059e4))
+
+
+### Bug Fixes
+
+* add exclamation point to hello endpoint ([dfb234d](https://github.com/lupusbytes/codejam-release-demo/commit/dfb234dcff484cfa0d5d8123f638a7d96631bd9a))
+
 ## [2.1.0](https://github.com/lupusbytes/codejam-release-demo/compare/v2.0.1...v2.1.0) (2024-11-26)
 
 
