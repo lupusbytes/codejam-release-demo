@@ -26,7 +26,7 @@ app.MapGet(
 
 app.MapGet(
     "/hello",
-    () => new { Message = "World" })
+    () => new { Message = "World!" })
     .WithName("Hello")
     .WithOpenApi();
 
