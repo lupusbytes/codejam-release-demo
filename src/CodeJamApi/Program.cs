@@ -24,4 +24,10 @@ app.MapGet(
     .WithName("Ping")
     .WithOpenApi();
 
+app.MapGet(
+    "/hello",
+    () => new { Message = "World" })
+    .WithName("Hello")
+    .WithOpenApi();
+
 app.Run();
